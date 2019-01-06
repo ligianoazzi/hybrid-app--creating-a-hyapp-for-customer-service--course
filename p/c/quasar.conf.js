@@ -53,7 +53,8 @@ module.exports = function (ctx) {
         'QCardTitle',
         'QCardSeparator',
         'QCardMain',
-        'QChatMessage'
+        'QChatMessage',
+        'QInput'
       ],
       directives: [
         'Ripple'

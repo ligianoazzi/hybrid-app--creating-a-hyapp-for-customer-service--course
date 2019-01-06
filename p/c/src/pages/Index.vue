@@ -62,6 +62,16 @@
     				/>
 
     			</q-card-main>		
+
+    			<q-card-separator/>
+    			<q-card-main>
+    				<q-input
+    					v-model="message"
+    					type="textarea"
+    					float-label="Your message here"
+    					:max-height="100"
+    				/>
+    			</q-card-main>    			
     		</q-card>
 
     	</div>
@@ -76,6 +86,11 @@
 
 <script>
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  data(){
+  	return{
+  		message: ""
+  	}
+  }
 }
 </script>

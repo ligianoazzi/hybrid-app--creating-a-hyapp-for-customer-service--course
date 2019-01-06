@@ -1,0 +1,23 @@
+/p
+
+-> s (server)
+cd C:\Users\Ligiano Azzi\Documents\courses\hybrid-app--creating-a-hyapp-for-customer-service--course\p\s
+
+node index.js
+
+-> c (client)
+cd C:\Users\Ligiano Azzi\Documents\courses\hybrid-app--creating-a-hyapp-for-customer-service--course\p\c
+
+quasar dev
+
+
+************ ------------- **************
+each client that conex in the node server, the console.log will rin, advise "new connection"
+
+
+************ ------------- **************
+
+o cliente, que se conecta na bibliteca para conectar ao servidor... confuso
+
+
+
